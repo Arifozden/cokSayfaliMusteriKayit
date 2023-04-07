@@ -13,14 +13,14 @@
             <a href="index.html" class="navbar-brand">Ana Sayfa</a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="musteri.html">Musteriler</a></li>
-            <li><a href="kayit.html">Yeni Kayit</a></li>
+            <li><a href="musteri.html">Musteriler</a></li>
+            <li  class="active"><a href="kayit.html">Yeni Kayit</a></li>
         </ul>
     </div>
 </nav>
 <div class="container">
-    <h3>Yeni Musteri</h3>
-    <form class="form">
+    <h3>Yeni Musteri</h3><br>
+    <form class="form-inline">
         <div class="form-group">
             <label for="isim">Isim</label>
             <input type="text" class="form-control" id="isim"/>
@@ -30,6 +30,7 @@
             <input type="text" class="form-control" id="adres"/>
         </div>
     </form>
+    <br>
     <button class="btn btn-primary" onclick="kayit()">Kaydet</button>
     <br>
 </div>
