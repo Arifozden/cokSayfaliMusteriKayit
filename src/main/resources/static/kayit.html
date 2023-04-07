@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="index.html" class="navbar-brand">Ana Sayfa</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="musteri.html">Musteriler</a></li>
+            <li><a href="kayit.html">Yeni Kayit</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <h3>Yeni Musteri</h3>
+    <form class="form">
+        <div class="form-group">
+            <label for="isim">Isim</label>
+            <input type="text" class="form-control" id="isim"/>
+        </div>
+        <div class="form-group">
+            <label for="adres">Adres</label>
+            <input type="text" class="form-control" id="adres"/>
+        </div>
+    </form>
+    <button class="btn btn-primary" onclick="kayit()">Kaydet</button>
+    <br>
+</div>
+<script src="kayit.js"></script>
+</body>
+</html>

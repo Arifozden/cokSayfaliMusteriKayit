@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Musteriler</title>
+</head>
+<body>
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="index.html" class="navbar-brand">Ana Sayfa</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="musteri.html">Musteriler</a></li>
+            <li><a href="kayit.html">Yeni Kayit</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <h3>Tum Musteriler</h3>
+    <div id="musteriler"></div>
+    <button class="btn btn-danger" onclick="hepsiniSil()">Kayitlari sil</button>
+</div>
+<script src="musteri.js"></script>
+</body>
+</html>
